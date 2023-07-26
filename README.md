@@ -11,5 +11,5 @@ This is an implementation of a Photos mobile app using Andoid Studio, a single-u
 - Searching functionality (with autocomplete)
 
 ## Authors
-Harshith Samayamantula
-Maliha Tarafdar
+_Harshith Samayamantula_  
+_Maliha Tarafdar_
