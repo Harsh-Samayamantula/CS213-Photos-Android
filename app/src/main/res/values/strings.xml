@@ -1,0 +1,32 @@
+<resources>
+	<string name="app_name">Android85</string>
+
+	<!-- titles -->
+	<string name="title_albums">Albums</string>
+	<string name="title_photos">Photos</string>
+	<string name="title_search">Search</string>
+	<string name="title_remove">Remove</string>
+	<string name="title_edit_tags">Edit Tags</string>
+	<string name="title_move">Move</string>
+	<string name="title_tags">Tags</string>
+
+	<!-- no content -->
+	<string name="no_albums">Create a new album.</string>
+	<string name="no_photos">No photos to display. Add one by clicking the + button.</string>
+	<string name="no_results">No photos matched your search!</string>
+
+	<!-- content descriptions -->
+	<string name="content_desc_add_icon">add icon</string>
+	<string name="content_desc_overflow_icon">overflow icon</string>
+	<string name="content_desc_delete_icon">delete icon</string>
+	<string name="content_desc_edit_icon">edit icon</string>
+	<string name="content_desc_cancel_icon">cancel icon</string>
+	<string name="content_desc_thumbnail_image">photo thumbnail</string>
+	<string name="content_desc_previous_icon">previous photo</string>
+	<string name="content_desc_next_icon">next photo</string>
+	<string name="content_desc_image_display">image display</string>
+
+	<!-- descriptions -->
+	<string name="tag_person_desc">Person: </string>
+	<string name="tag_location_desc">Location: </string>
+</resources>

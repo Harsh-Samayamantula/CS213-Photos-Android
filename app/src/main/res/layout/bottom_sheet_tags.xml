@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:backgroundTint="@color/white"
+	android:paddingStart="40dp"
+	android:paddingTop="24dp"
+	android:paddingEnd="32dp"
+	android:paddingBottom="24dp">
+
+	<TextView
+		android:id="@+id/tags_text_title"
+		android:layout_width="290dp"
+		android:layout_height="46dp"
+		android:text="@string/title_tags"
+		android:textColor="@color/text_title"
+		android:textSize="22sp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toLeftOf="@+id/tags_button_close"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<ImageButton
+		android:id="@+id/tags_button_close"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="?attr/selectableItemBackgroundBorderless"
+		android:contentDescription="@string/content_desc_cancel_icon"
+		android:minWidth="48dp"
+		android:minHeight="48dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_bias="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0"
+		app:srcCompat="@drawable/ic_cancel_32"
+		app:tint="@color/colorAccent" />
+
+	<TextView
+		android:id="@+id/tags_text_person"
+		android:layout_width="283dp"
+		android:layout_height="52dp"
+		android:text="@string/tag_person_desc"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toLeftOf="@+id/tags_button_edit_person"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tags_text_title"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<ImageButton
+		android:id="@+id/tags_button_edit_person"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="?attr/selectableItemBackgroundBorderless"
+		android:contentDescription="@string/content_desc_edit_icon"
+		android:minWidth="48dp"
+		android:minHeight="48dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tags_button_close"
+		app:layout_constraintVertical_bias="0.0"
+		app:srcCompat="@drawable/ic_edit_32"
+		app:tint="@color/colorAccent" />
+
+	<TextView
+		android:id="@+id/tags_text_location"
+		android:layout_width="282dp"
+		android:layout_height="52dp"
+		android:text="@string/tag_location_desc"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/tags_button_edit_location"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintRight_toLeftOf="@+id/tags_button_edit_location"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tags_text_person"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<ImageButton
+		android:id="@+id/tags_button_edit_location"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="?attr/selectableItemBackgroundBorderless"
+		android:contentDescription="@string/content_desc_edit_icon"
+		android:minWidth="48dp"
+		android:minHeight="48dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tags_button_edit_person"
+		app:layout_constraintVertical_bias="0.0"
+		app:srcCompat="@drawable/ic_edit_32"
+		app:tint="@color/colorAccent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
